@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?7d9f738fabe5f42e9ca7b1b772445614") format("truetype"),
+url("./flaticon.woff?7d9f738fabe5f42e9ca7b1b772445614") format("woff"),
+url("./flaticon.woff2?7d9f738fabe5f42e9ca7b1b772445614") format("woff2"),
+url("./flaticon.eot?7d9f738fabe5f42e9ca7b1b772445614#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7d9f738fabe5f42e9ca7b1b772445614#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-pencil:before {
+    content: "\f101";
+}
+.flaticon-dump-truck:before {
+    content: "\f102";
+}
+.flaticon-tools:before {
+    content: "\f103";
+}
+.flaticon-link:before {
+    content: "\f104";
+}
+.flaticon-right-arrow:before {
+    content: "\f105";
+}
+.flaticon-left-arrow:before {
+    content: "\f106";
+}
+.flaticon-top:before {
+    content: "\f107";
+}

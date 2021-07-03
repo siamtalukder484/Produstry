@@ -1,0 +1,53 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7d9f738fabe5f42e9ca7b1b772445614") format("truetype"),
+url("./flaticon.woff?7d9f738fabe5f42e9ca7b1b772445614") format("woff"),
+url("./flaticon.woff2?7d9f738fabe5f42e9ca7b1b772445614") format("woff2"),
+url("./flaticon.eot?7d9f738fabe5f42e9ca7b1b772445614#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7d9f738fabe5f42e9ca7b1b772445614#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pencil": "\f101",
+    "dump-truck": "\f102",
+    "tools": "\f103",
+    "link": "\f104",
+    "right-arrow": "\f105",
+    "left-arrow": "\f106",
+    "top": "\f107",
+);
+
+.flaticon-pencil:before {
+    content: map-get($flaticon-map, "pencil");
+}
+.flaticon-dump-truck:before {
+    content: map-get($flaticon-map, "dump-truck");
+}
+.flaticon-tools:before {
+    content: map-get($flaticon-map, "tools");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-top:before {
+    content: map-get($flaticon-map, "top");
+}
